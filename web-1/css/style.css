@@ -1,0 +1,113 @@
+*{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+html,body
+{
+    padding: 0;
+    margin: 0;
+}
+main
+{
+    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../images/pexels-photo-248515.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.heading-1
+{
+    color: white;
+    padding: 150px 169px 142px 169px;
+    text-align: center;
+}
+.heading-1 h2
+{
+    font-size: 41px;
+}
+.heading-1 p
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 150px;
+    padding-right: 150px;
+    font-size: 21px;
+}
+.heading-1 .border
+{
+    position: relative;
+    padding-left: 44%;
+    padding-right: 46%;
+}
+.heading-1 .read-more
+{
+    border: 1px solid gray;
+    padding: 12px;
+    background-color: black;
+}
+.heading-1 .read-more:hover
+{
+    border: 1px solid black;
+    padding: 12px;
+    background-color:white;
+    color: black;
+}
+.heading-2
+{
+    display: flex;
+    padding-left: 400px;
+    padding-right: 400px;
+}
+.heading--2
+{
+    text-align: center;
+}
+.heading-2 div
+{
+    padding-right: 10px;
+    padding-bottom: 10%;
+}
+section
+{
+    background-color: #333333;
+}
+.block
+{
+    display: flex;
+    padding-left: 400px;
+    padding-right: 400px;
+    padding-bottom: 100px;
+}
+
+.block-1 img
+{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.block-1
+{
+    text-align: center;
+    color: black;
+    border-right: #333333 solid 20px;
+    border-top: #333333 solid 20px;
+    border-bottom: #333333 solid 15px;
+    background-color: white;
+}
+.block-1 p
+{
+    position: relative;
+    padding: 20px;
+}
+.footer
+{
+    display:flex;
+}
+.text-1
+{
+    text-align: center;
+    background-color: aqua;
+    color: white;
+}
+.text-2
+{
+    text-align: center;
+    background-color: black;
+    color: white;
+}

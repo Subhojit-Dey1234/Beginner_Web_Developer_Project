@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sliding In</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <nav>
+        <img src="iconmonstr-x-mark-1.svg">
+        <ul class="menu">
+            <li>
+                <a href="#">Home</a>
+            </li>
+            <li>
+                <a href="#">About Us</a>
+            </li>
+            <li>
+                <a href="#">Portfolio</a>
+            </li>
+            <li>
+                <a href="#">Contacts Us</a>
+            </li>
+        </ul>
+    </nav>
+    <header>
+        <a href="#">My WebDesign</a>
+        <div class="hamburger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+    </header>
+    <section>
+        <h1>My WebDesign</h1>
+    </section>
+</body>
+<script>
+    var clickbutton = document.querySelector("header .hamburger");
+    var navi = document.querySelector("nav");
+    var close = document.querySelector('nav img');
+    clickbutton.addEventListener('click',function(){
+        navi.classList.add('show_class');
+    });
+    close.addEventListener('click',function(){
+        navi.classList.remove('show_class');
+    })
+</script>
+</html>

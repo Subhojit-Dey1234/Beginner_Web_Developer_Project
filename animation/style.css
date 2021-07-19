@@ -1,0 +1,28 @@
+body{
+    background-color: rgb(17, 255, 136);
+}
+svg{
+    padding:50vh;
+    padding-bottom: 0;
+    stroke-dasharray:3421px;
+    stroke-dashoffset:3421px;
+    transform: translateY(60px);
+    animation: ani 3s forwards 0.1s ease-in;
+}
+svg path{
+    opacity: 0;
+    animation: fill-color 5s forwards;
+}
+
+@keyframes fill-color{
+    to{
+        fill: blue;
+        opacity: 1;
+    }
+}
+@keyframes ani{
+    to{
+        stroke-dashoffset: 0;
+        transform: translateY(0);
+    }
+}
